@@ -2,7 +2,7 @@
 # Team City 8 Docker Image
 ####################################
 
-FROM java-8
+FROM lwieske/java-8 
 
 ENV TEAM_CITY_BASE_URL http://download-cf.jetbrains.com/teamcity                 
 ENV TEAM_CITY_PACKAGE TeamCity-8.1.2.tar.gz
